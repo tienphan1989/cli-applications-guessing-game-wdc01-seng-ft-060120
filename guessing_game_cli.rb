@@ -8,7 +8,7 @@ def run_guessing_game
     if user_input.to_i == generated_num
       puts "You guessed the correct number!"
     end
-    if user_input.to_i != generated_num
+    if user_input.to_i != generated_num && user_input != "exit"
       puts "Sorry! The computer guessed #{generated_num}"
     end
   end
