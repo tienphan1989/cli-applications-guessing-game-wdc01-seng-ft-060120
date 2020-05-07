@@ -6,12 +6,13 @@ def run_guessing_game
       puts "Goodbye!"
     if user_input.to_i == generated_num
       puts "You guessed the correct number!"
+    end
     if user_input.to_i != generated_num
       puts "Sorry! The computer guessed #{generated_num}"
     end
   end
 end
-end
+
   
   
   
